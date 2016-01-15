@@ -1,3 +1,2 @@
 #!/bin/bash/
-vim /d/mrada/Dropbox/Defter/$(date -I).txt
-
+vim /my-journal/path/$(date -I).txt
