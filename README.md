@@ -13,24 +13,28 @@ Why not write in your favorite text editor, with one keystroke, from the command
 
 ### Installation
 
-*(requires VIM)*
+*requires [VIM](http://github.com/vim/vim)*
 
-Modify j to poin to your personal journal folder
+Modify 'j' to point to your personal journal folder
 
+<pre><code> $ vim j
+</code></pre>
+
+<pre><code>#!/bin/bash/
+vim /my-journal/path/here/$(date -I).txt
+</code></pre>
 
 Make 'j' executable
 
-<pre><code>
-chmod u+x j
+<pre><code> $ chmod u+x j
 </code></pre>
 
 Copy 'j' somewhere into your path.
 
-<pre><code>
-$ cp j /usr/bin/local 
+<pre><code> $ cp j /usr/bin/local 
 </code></pre>
 
 Run 'j' and start journalling
 
-Repeat tomorrow, and the next day, and the next day...
+Repeat tomorrow, and the next day, and the next day after that...
 
