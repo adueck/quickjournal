@@ -34,7 +34,7 @@ Copy 'j' somewhere into your path.
 <pre><code> $ cp j /usr/bin/local 
 </code></pre>
 
-Run 'j' and start journalling
+Run 'j' and start journalling!
 
 Repeat tomorrow, and the next day, and the next day after that...
 
