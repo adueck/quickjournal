@@ -24,7 +24,7 @@ Modify 'j' to point to your personal journal folder
 vim /my-journal/path/here/$(date -I).txt
 </code></pre>
 
-Make 'j' executable
+Make 'j' executable...
 
 <pre><code> $ chmod u+x j
 </code></pre>
