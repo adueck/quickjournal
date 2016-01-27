@@ -38,3 +38,4 @@ Run 'j' and start journalling!
 
 Repeat tomorrow, and the next day, and the next day after that...
 
+(Windows version coming soon)
