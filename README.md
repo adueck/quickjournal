@@ -17,8 +17,12 @@ Why not write in your favorite text editor, with one keystroke, from the command
 
 Modify 'j' to point to your personal journal folder
 
+Create a file called `j`
+
 <pre><code> $ vim j
 </code></pre>
+
+And enter the following lines of code:
 
 <pre><code>#!/bin/bash/
 vim /my-journal/path/here/$(date -I).txt
@@ -29,7 +33,7 @@ Make 'j' executable...
 <pre><code> $ chmod u+x j
 </code></pre>
 
-Copy 'j' somewhere into your path.
+Now copy 'j' somewhere into your `PATH`.
 
 <pre><code> $ cp j /usr/bin/local 
 </code></pre>
