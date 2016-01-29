@@ -28,17 +28,17 @@ And enter the following lines of code:
 vim /my-journal/path/here/$(date -I).txt
 </code></pre>
 
-Make 'j' executable...
+Make `j` executable...
 
 <pre><code> $ chmod u+x j
 </code></pre>
 
-Now put 'j' somewhere into your `PATH`.
+Now put `j` somewhere into your `PATH`.
 
 <pre><code> $ cp j /usr/bin/local 
 </code></pre>
 
-Run 'j' and start journalling!
+Run `j` and start journalling!
 
 Repeat tomorrow, and the next day, and the next day after that...
 
