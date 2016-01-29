@@ -33,7 +33,7 @@ Make 'j' executable...
 <pre><code> $ chmod u+x j
 </code></pre>
 
-Now copy 'j' somewhere into your `PATH`.
+Now put 'j' somewhere into your `PATH`.
 
 <pre><code> $ cp j /usr/bin/local 
 </code></pre>
