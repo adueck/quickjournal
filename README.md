@@ -7,7 +7,7 @@ Why not write in your favorite text editor, with one keystroke, from the command
 
 ### How it works
 
-1. Run the journal script by running <code>j</code> from the CLI
+1. Type `j` in the CLI
 2. Up pops a text file in VIM with named after the current date (YYYY/MM/DD.txt)
 3. Do this day after day, and you'll have a folder full of beautifully archived memories
 
@@ -17,34 +17,14 @@ Why not write in your favorite text editor, with one keystroke, from the command
 
 *requires [VIM](http://github.com/vim/vim)*
 
-Modify 'j' to point to your personal journal folder
+Add the following line to your .bashrc
 
-Create a file called `j`
+`alias j="vim /path/to/journal/directory/$(date -I).txt`
 
-<pre><code> $ vim j
-</code></pre>
-
-And enter the following lines of code:
-
-<pre><code>#!/bin/bash/
-vim /my-journal/path/here/$(date -I).txt
-</code></pre>
-
-Make `j` executable...
-
-<pre><code> $ chmod u+x j
-</code></pre>
-
-Now put `j` somewhere into your `PATH`.
-
-<pre><code> $ cp j /usr/bin/local 
-</code></pre>
-
-Run `j` and start journalling!
+Restart bash, type <kbd>j</kbd> + <kbd>Enter</kbd>, and start journalling.
 
 Repeat tomorrow, and the next day, and the next day after that...
 
 ### On Windows
 
 Use `j.bat`
-
