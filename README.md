@@ -11,13 +11,11 @@ Why not write in your favorite text editor, with one keystroke, from the command
 2. Up pops a text file in VIM with named after the current date (YYYY/MM/DD.txt)
 3. Do this day after day, and you'll have a folder full of beautifully archived memories
 
-### How to make it
-
-*For Mac/Linux systems with Bash - see Windows section below* 
+### How to make it (for people with bash)
 
 *requires [VIM](http://github.com/vim/vim)*
 
-Add the following line to your .bashrc
+Add the following line to your *.bashrc*
 
 `alias j="vim /path/to/journal/directory/$(date -I).txt`
 
@@ -25,6 +23,6 @@ Restart bash, type <kbd>j</kbd> + <kbd>Enter</kbd>, and start journalling.
 
 Repeat tomorrow, and the next day, and the next day after that...
 
-### On Windows
+### For windows users without bash...
 
 Use `j.bat`
