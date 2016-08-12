@@ -7,7 +7,7 @@ Why not write in your favorite text editor, with one keystroke, from the command
 
 ### How it works
 
-1. Type `j` in the CLI
+1. Run `j` from the command line
 2. Up pops a text file in VIM with named after the current date (YYYY/MM/DD.txt)
 3. Do this day after day, and you'll have a folder full of beautifully archived memories
 
