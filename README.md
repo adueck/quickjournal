@@ -17,7 +17,7 @@ Why not write in your favorite text editor, with one keystroke, from the command
 
 Add the following line to your *.bashrc*
 
-`alias j="vim /path/to/journal/directory/$(date -I).txt`
+`alias j="vim /path/to/journal/directory/$(date -I).txt"`
 
 Restart bash, type <kbd>j</kbd> + <kbd>Enter</kbd>, and start journalling.
 
