@@ -8,7 +8,7 @@ Why not write in your favorite text editor, with one keystroke, from the command
 ### How it works
 
 1. Run `j` from the command line
-2. Up pops a text file in VIM with named after the current date (YYYY/MM/DD.txt)
+2. Up pops a text file in VIM with named after the current date `YYYY-MM-DD.txt`
 3. Do this day after day, and you'll have a folder full of beautifully archived memories
 
 ### How to make it (for people with bash)
@@ -23,6 +23,6 @@ Restart bash, type <kbd>j</kbd> + <kbd>Enter</kbd>, and start journalling.
 
 Repeat tomorrow, and the next day, and the next day after that...
 
-### For windows users without bash...
+### For windows users without bash
 
 Use `j.bat`
